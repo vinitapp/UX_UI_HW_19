@@ -1,0 +1,220 @@
+body {
+  height: 100%;
+  margin: 0%;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: Josefin Sans;
+  font-size: 24px;
+  z-index: 4;
+}
+
+li {
+  float: right;
+  font-family: Josefin Sans;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: transparent;
+  color: #F2CF59;
+}
+
+/* li a (.active) {
+  } */
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: transparent;
+  color: black;
+}
+
+#logoimage {
+  float: left;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  font-family: Josefin Sans;
+}
+
+.tripspheredescrip h3 {
+  display: flex;
+  font-family: Josefin Sans;
+  font-weight: 1000;
+  font-size: 30px;
+  position: relative;
+  margin-top: 150px;
+  left: 200px;
+}
+
+.tripspheredescrip h5 {
+  display: flex;
+  font-family: Josefin Sans;
+  font-weight: 1000;
+  font-size: 28px;
+  position: relative;
+  margin-top: 150px;
+  left: 200px;
+}
+
+.tripspheredescrip p {
+  font-family: Josefin Sans;
+  font-size: 22px;
+  margin-left: 200px;
+  margin-right: 200px;
+  word-spacing: 5px;
+  line-height: 1.5;
+}
+
+.method h2 {
+  display: flex;
+  font-family: Josefin Sans;
+  font-weight: 1000;
+  font-size: 36px;
+  position: relative;
+  margin-top: 150px;
+  left: 200px;
+}
+
+.method p {
+  font-family: Josefin Sans;
+  font-size: 24px;
+  margin-left: 200px;
+  margin-right: 200px;
+  word-spacing: 5px;
+  line-height: 1.5;
+}
+
+.userResearchtrip h2 {
+  display: flex;
+  font-family: Josefin Sans;
+  font-weight: 1000;
+  font-size: 36px;
+  position: relative;
+  margin-top: 150px;
+  left: 200px;
+}
+
+.userResearchtrip h3 {
+  display: flex;
+  font-family: Josefin Sans;
+  font-weight: 1000;
+  font-size: 30px;
+  position: relative;
+  margin-top: 150px;
+  left: 200px;
+}
+
+.userResearchtrip p {
+  font-family: Josefin Sans;
+  font-size: 24px;
+  margin-left: 200px;
+  margin-right: 200px;
+  word-spacing: 5px;
+  line-height: 1.5;
+}
+
+.interviewimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.affinityMap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.designProcess {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.competitorAnalysis {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userPersona {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.storyBoarding {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lowFidelity {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testing {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.keyFindings {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.group1hi {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thankYou {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+ 
+}
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+}

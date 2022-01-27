@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Elements Reference</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Londrina Shadow' rel='stylesheet'>
+    <title>CSS3 Animation - Bouncing arrow down (linear move)</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style></style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+
+                <a href="/"><img id="imageSec" onClick="RotateImageMethod(360);" src="../images portfolio/Logo.png"
+                        alt="Vinita Icon" style="float: left; margin-left: 50px; height:100px" /></a>
+
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section class="homescreenbackground">
+        <div class="fullscreen"></div>
+        <div id="portfolio-box-main">
+            <div class="centered">
+                <h2>UI/UX DESIGN</h2>
+                <h3>PORT</h3>
+                <h3 style="color:#F2CF59; font-family: Londrina Shadow; font-weight: 900;">FOLIO</h3>
+                <h1>VINITA PRABHU</h1>
+            </div>
+        </div>
+
+        <div class="arrow-container">
+            <div class="arrow-down">
+                <a href="#about">
+                    <div class="arrow" style="transform:rotate(45deg);"></div>
+                </a>
+            </div>
+        </div>
+        <div id="about"></div>
+
+
+        <!-- <div class="centeredArrow">
+            <a href="#about">
+                <div class="arrow"></div>
+            </a>
+        </div>
+        <div id="about"></div> -->
+
+
+
+
+    </section>
+
+
+
+    <section class="aboutmescreenbackground">
+        <div class="AboutMe">
+            <div class="image">
+                <img class="vimg" src="../images portfolio/profile picture1.png">
+            </div>
+            <div class="text">
+                <h1>Hi there, I'm </h1>
+                <h1 style="color:#F2CF59;font-weight: 800;">Vinita.</h1>
+                <br>
+                <h3>Call me a </h3>
+                <h3 style="color:#F2CF59; font-weight: 900; font-family: Londrina Shadow;">UX/UI Designer</h3>
+                <h3>,an </h3>
+                <h3 style="color:#F2CF59;font-family: Londrina Shadow; font-weight:900;"> Interior Designer</h3>
+                <h3>,a </h3>
+                <h3 style="color:#F2CF59;font-family: Londrina Shadow; font-weight:900;"> Sushiholic.</h3>
+                </br>
+                <p>I'm a UX/UI Designer based in Canberra, Australia.
+                    I'm passionate about my work and looking forward to work in the fast paced digital user experience
+                    designing.
+                    Having a background in designing I understand the principles of usability, functionality and sense
+                    of duty.
+                </p>
+
+                <p>I also hold a diploma in Interior Designing. Previously, I have worked as an Interior Designer and
+                    Kitchen Design Specialist at IKEA. My experience in these roles have sharpened my skills in
+                    designing, working in a fast-paced, high-pressure environment, interacting with people, helping and
+                    understanding their needs and finding efficient solutions to problems.</p>
+                <br>
+                <div class="UIUX">
+                    <h3>How did I get into</h3>
+                    <h3 style="color:#F2CF59;">UX/UI Design?</h3>
+
+                    <p>I love finding opportunities for a good user experience. Working in customer oriented
+                        industry has helped me to understand people's behaviour, needs, gives me an opportunity to
+                        directly interact with the people to solve their space problems by giving suggestions and
+                        digitally designing. </p>
+                    <p style="color: #F2CF59;font-weight: 600;font-size: 28px; text-align: center;">"Designing is
+                        not just to showcase your creativity but also to
+                        implement the design in the real world."</p>
+                    <p>There is no limitations learning new things, designing was always a part of me so I chose to
+                        pursue this new path into UX/UI Designing. I realized that I strongly follow the five step
+                        problem solving process in my current position by conducting user research and interacting
+                        with the people to acheive their goals by solving their concerns, providing them with
+                        efficient solutions, iterating design, digital sketches by using softwares and delivering
+                        the final product.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="other">
+            <h3>Other Things</h3>
+            <h3 style="color: #F2CF59;">I enjoy...</h3>
+            <p>Food and Desserts : I enjoy eating sushi anytime of the day. I also
+                enjoy cooking and trying new recipes. My favourite dessert is anything with chocolate in it- Chocolate
+                Icecreams, Iced Coffee, Chocolates and the list is endless.</p>
+            <p>Photography : I did a short course in photography. I enjoy clicking nature, emotions and make memories.
+            </p>
+            <p>Driving : I enjoy driving while listening to good music.</p>
+            <p>Designing : I like to watch youtube tutorials and do some small changes and makeovers at home.</p>
+        </div>
+
+
+        <div id="hobbies">
+            <img class="vimg" src="../images portfolio/hobbies.png">
+        </div>
+
+        <div class="aboutcenteredArrow">
+            <a data-scroll href="#work">
+                <div class="workarrow"></div>
+            </a>
+        </div>
+        <div id="work"></div>
+    </section>
+
+    <!-- Totspot section https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zig_zag_layout&stacked=h -->
+    <div class="card">
+        <div class="vcontainer tripshere">
+            <h1 class="xlarge-font" style="margin-left: 50px;"><b>TRIPSPHERE</b></h1>
+            <p style="font-size: x-large; width:30%; margin-left:100px;"> TripSphere was designed to achieve lucrative
+                deals for our busy and
+                budget friendly travellers. </p>
+            <button class="button" onclick="goToWorkpage()" style="margin-left: 100px; margin-top:50px;">View Case
+                Study</button>
+        </div>
+        <div class="column-33">
+            <img class="card1" src="../images portfolio/travel2.png" style="width:400px">
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="vcontainer tripshere">
+            <h1 class="xlarge-font" style="margin-left: 50px;"><b>TRIPSPHERE</b></h1>
+            <p style="font-size: x-large; width:30%; margin-left:100px;"> TripSphere was designed to achieve lucrative
+                deals for our busy and
+                budget friendly travellers. </p>
+            <button class="button" onclick="goToWorkpage()" style="margin-left: 100px; margin-top:50px;">View Case
+                Study</button>
+        </div>
+        <div class="column-33">
+            <img class="card1" src="../images portfolio/travel2.png">
+        </div>
+    </div>
+
+    <div class="cardtot">
+        <div class="vcontainer tripshere">
+            <h1 class="xlarge-font" style="margin-left: 50px;"><b>TRIPSPHERE</b></h1>
+            <p style="font-size: x-large; width:30%; margin-left:100px;"> TripSphere was designed to achieve lucrative
+                deals for our busy and
+                budget friendly travellers. </p>
+            <button class="button" onclick="goToWorkpage()" style="margin-left: 100px; margin-top:50px;">View Case
+                Study</button>
+        </div>
+        <div class="column-33">
+            <img class="card2" src="../images portfolio/babychange1.png">
+        </div>
+    </div>
+
+    
+    <!-- <img class="card1" src="../images portfolio/1.png" alt="Avatar" style="width:50%"> -->
+
+
+    <!-- <div class="projecttab1" style="background-color: #F2CF59;">
+        <div class="row">
+            <div class="tripsphere">
+                <h1 class="xlarge-font"><b>TRIPSPHERE</b></h1>
+                <p style="font-size: x-large;"> TripSphere was designed to achieve lucrative deals for our busy and
+                    budget friendly travellers. </p>
+                <button class="button" onclick="goToWorkpage()">View Case Study</button>
+            </div> -->
+    <!-- <div class="column-33">
+        <img class="vimg" src="../images portfolio/1.png" width="50%" height="600">
+    </div>
+    </div>
+    </div> -->
+
+    <!-- TOTSPOT Section -->
+    <!-- <div class="projecttab2" style="background-color:#D0E6EB">
+        <div class="row">
+            <div class="totspot">
+                <h1 class="xlarge-font"><b>TOTSPOT</b></h1>
+                <p style="font-size: x-large;">A baby changing room locator app designed not only for the Mums but also
+                    for Dads. It's feature of changing modes to Mum or Dad can be conviniently used by parents in case
+                    of emergencies when out and about.</p>
+                <button class="button2" onclick="goToWorkpage2()">View Case
+                    Study</button>
+            </div>
+            <div class="imagetotspot">
+                <img class="vimg" src="../images portfolio/2.png" alt="App" width="50%" height="600">
+            </div>
+        </div>
+    </div> -->
+    <!-- The App Section -->
+    <!-- <div class="containerNew" style="background-color:#1ece1e">
+        <div class="row">
+            <div class="column-66">
+                <h1 class="xlarge-font"><b>The App</b></h1>
+                <h1 class="large-font" style="color:MediumSeaGreen;"><b>Why buy it?</b></h1>
+                <p><span style="font-size:36px">Take photos like a pro.</span> You should buy this app
+                    because
+                    lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <button class="button">Download Application</button>
+            </div>
+            <div class="column-33">
+                <img src="../images portfolio/1.png" width="335" height="471">
+            </div>
+        </div>
+    </div> -->
+    <script>
+        function goToWorkpage() {
+            location.replace("http://127.0.0.1:5501/tripsphere.html")
+        }
+    </script>
+    <!-- <script>
+        function goToWorkpage2() {
+            location.replace("http://127.0.0.1:5501/totspot.html")
+        }
+    </script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!-- <script src="js/jquery-rotate/rotate.js"></script> -->
+
+    <script src="js/index.js"></script>
+</body>
+
+
+</html>
