@@ -14,6 +14,15 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
+  $(".button3").hover(function () {
+    $(this).css("background-color", "#3CBCC3");
+  }, function () {
+    $(this).css("background-color", "black");
+  });
+});
+
+
 // $('#animate-demo1').on('click', function () {
 
 //   if (!$(this).is(':animated')) {
