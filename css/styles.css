@@ -59,7 +59,7 @@ li a:hover:not(.active) {
 
 
 #portfolio-box-main {
-  background-image: url("../images portfolio/boxframe.png");
+  background-image: url("../imagesportfolio/boxframe.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -107,32 +107,6 @@ h3 {
   bottom: 20px;
   left: 50px;
 }
-
-/* @bg: #F2F2F2;
-@primary: #F2F2F2;
-
-body { background:white;}
-a { color: white; text-decoration: none; }
-
-
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-    rotate: 0deg;
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-} */
 .arrow {
   box-sizing: border-box;
   height: 2vw;
@@ -189,7 +163,7 @@ a { color: white; text-decoration: none; }
 } */
 
 .homescreenbackground {
-  background-image: url("../images portfolio/Home screen background (1).png");
+  background-image: url("../imagesportfolio/Home screen background (1).png");
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -400,8 +374,9 @@ body {
   border-radius: 5px;
   background-color: #F2CF59;
   height: 45%;
-  margin-top: 1200px;
+  margin-top: 1250px;
   margin-left: 20%;
+  display: flex;
 }
 
 .card:hover {
@@ -412,7 +387,7 @@ body {
   justify-content: right;
   border-radius: 5px 5px 0 0;
   float: right;
-  margin-top: -30%;
+  margin-top: 7%;
   margin-right: 50px;
 }
 .cardtot {
@@ -436,6 +411,7 @@ body {
   margin-top: -33%;
   margin-left: 70px;
   height:500px;
+  display: flex;
 }
 .cardstreat {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
@@ -446,6 +422,7 @@ body {
   height: 45%;
   margin-top: 106px;
   margin-left: 20%;
+  display: flex;
 }
 
 .cardstreat:hover {
@@ -454,10 +431,10 @@ body {
 .card3 {
   border-radius: 5px 5px 0 0;
   float: right;
-  margin-top: -23.5%;
+  margin-top: 23.5%;
   margin-right: 120px;
   height:350px;
-  
+  display: flex;
 }
 
 
@@ -626,15 +603,15 @@ body {
   
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width:1000px) {
 
-  .column-66,
+  .vcontainer tripshere,
   .column-33 {
     width: 100%;
     text-align: center;
   }
 
-  img {
+img {
     margin: auto;
   }
 }
