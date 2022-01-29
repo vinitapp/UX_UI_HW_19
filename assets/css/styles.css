@@ -59,7 +59,7 @@ li a:hover:not(.active) {
 
 
 #portfolio-box-main {
-  background-image: url("../imagesportfolio/boxframe.png");
+  background-image: url("../images/boxframe.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,9 +114,9 @@ h3 {
   border-style: solid;
   border-color: #F2CF59;
   border-width: 0 7px 7px 0;
-  position: absolute;
-  
+  /* position: absolute;  */
   margin-top: -150px;
+  display: flex;
 }
 
 .arrow:hover {
@@ -137,11 +137,10 @@ h3 {
 } */
 .arrow-container {
   width: 25px;
-  /* cubic-bezier-easing = sine / mehr Beispiele: https://easings.net/ */
   animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
   cursor: pointer;
   height: 20px;
-  margin-left: 935px
+  margin-left: 935px;
   
 }
 
@@ -151,19 +150,8 @@ h3 {
   }
 }
 
-/* .aboutcenteredArrow {
-  position: relative;
-  top: 0;
-  left: 100%;
-  transform: translate(-50%, -50%);
-  align-content: center;
-  background: transparent;
-  color: blue;
-  border-radius: 5px;
-} */
-
 .homescreenbackground {
-  background-image: url("../imagesportfolio/Home screen background (1).png");
+  background-image: url("../images/homescreenbackground.png");
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -176,27 +164,9 @@ h3 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
-
-
-/* .workarrow {
-  box-sizing: border-box;
-  height: 2vw;
-  width: 2vw;
-  border-style: solid;
-  border-color: #565656;
-  border-width: 0 1px 1px 0;
-  transform: rotate(45deg);
-  transition: border-width 150ms ease-in-out;
-  position: absolute;
-}
-
-.workarrow:hover {
-  border-color: #F2CF59;
-  border-bottom-width: 4px;
-  border-right-width: 4px;
-} */
 .container {
   display: flex;
   align-items: center;
@@ -331,6 +301,7 @@ h3 {
 #hobbies {
   align-content: center;
   margin-left: 200px;
+  display: flex;
 }
 
 * {
@@ -389,6 +360,7 @@ body {
   float: right;
   margin-top: 7%;
   margin-right: 50px;
+  display: flex;
 }
 .cardtot {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
@@ -514,9 +486,8 @@ body {
 
 
 .profile {
-  display: block;
-  height: auto;
-  max-width: 100%;
+  display: flex;
+
 }
 
 .rotateBtn {
@@ -578,7 +549,7 @@ body {
 	width:auto;
   height:100%;
   position:relative;
- 
+  display: flex; 
 	background:cyan;
 }
 .footer #cont{
