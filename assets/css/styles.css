@@ -116,7 +116,7 @@ h3 {
   border-width: 0 7px 7px 0;
   /* position: absolute;  */
   margin-top: -150px;
-  display: flex;
+  
 }
 
 .arrow:hover {
@@ -574,12 +574,10 @@ body {
   
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:800px) {
 
-  .vcontainer tripshere,
   .column-33 {
     width: 100%;
-    text-align: center;
   }
 
 img {
